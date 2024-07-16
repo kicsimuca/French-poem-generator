@@ -10,19 +10,20 @@
 </head>
 <body>
     <div class="container">
-    
-    <header>
-        <h1>AI French Poem Generator</h1>
-    </header>
-    <main>
-        <form id="poem-generator-form">
-            <input type="text" placeholder="Enter the topic of the French poem" autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
-            <input type="submit" class="submit-button"/>
-        </form>
-        <div class="poem" id="poem">
-
-        </div>
-    </main>
+        <header>
+            <h1>AI French Poem Generator</h1>
+         </header>
+        
+         <main>
+         <div class="form-container">
+            <form id="poem-generator-form">
+             <input type="text" placeholder="Enter the topic of a French poem" autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
+             <input type="submit" class="submit-button"/>
+            </form>
+            <small class="hint">i.e: Flower, Paris or Cheese</small>
+        </div> 
+        <div class="poem hidden blink" id="poem">
+         </main>
     
     <footer> This AI project was coded by <a href="https://github.com/kicsimuca" target="_blank">Boglarka Gyurkovics</a> and is <a href="https://github.com/kicsimuca/french-poem-generator.git" target="_blank">open-sourced on GitHub</a> and is hosted <a href="https://ai-french-poems-generator.netlify.app/" target="_blank">on Netify.</a> </footer>
     </div>
